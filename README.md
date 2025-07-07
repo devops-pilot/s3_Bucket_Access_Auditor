@@ -30,13 +30,15 @@ source .venv/bin/activate
 ```
 
 ### 3. Install dependencies 
-```pip install -r requirements.txt
+```
+pip install -r requirements.txt
 ```
 ### 🧪 Usage
 
 ###### Make sure your AWS credentials are configured (via ~/.aws/credentials, environment variables, or IAM role).
 
-```python auditor.py
+```
+python auditor.py
 ```
 ## 📊 Sample Output
 ##### 🔍 Auditing 4 S3 bucket(s)...
